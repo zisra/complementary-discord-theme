@@ -44,7 +44,8 @@ a[href*="/snowsgiving"], [class^="customizationSection"] > [class^="limitedFeatu
 [class^="burstReactionTooltipPrompt"], // Super reaction tooltip Nitro upsell
 [aria-label="Add Super Reaction"], // Message hover add super reaction icon
 [class^="side-"] > [class^="header-"] + [class^="premiumTab"] + [class^="item-"] + [class^="item-"] + [class^="item-"] + [class^="item-"], // Settings billing tab
-#emoji-picker-tab-panel > [class*="emojiPickerHeader"]:first-child > [class^="tooltipContainer"]:nth-child(2) // Nitro call screen reactions
+#emoji-picker-tab-panel > [class*="emojiPickerHeader"]:first-child > [class^="tooltipContainer"]:nth-child(2), // Nitro call screen reactions
+div.container-2giAcK:has(div.progressBarContainer-1efroK) // Boost progress bar
 {
   display: none !important;
 }
